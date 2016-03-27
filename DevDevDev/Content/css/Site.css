@@ -3,7 +3,7 @@
 }
 /* === HEADER ROW === */
 header {
-  background: #00a2ff url(/Content/images/ddd-bg.jpg) center center no-repeat;
+  background: #ff3400 url(/Content/images/ddd-bg.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -14,7 +14,7 @@ header > * {
   position: relative;
 }
 header .bg-fill {
-  background: #00a2ff;
+  background: #ff3400;
   position: absolute;
   top: 0;
   left: 0;
@@ -165,7 +165,7 @@ tr td.highlight-session {
   background: #fcf8f4;
 }
 .agenda-row th.yellow-stream {
-  background: #e3d800;
+  background: #E3D800;
 }
 .agenda-row td.yellow-stream {
   background: #fffef2;
@@ -370,8 +370,8 @@ p .button {
 button,
 .button {
   border-width: 0 0 2px 0;
-  border-color: #0082cc;
-  background: #00a2ff;
+  border-color: #cc2a00;
+  background: #ff3400;
   text-transform: uppercase;
   vertical-align: top;
   -webkit-box-shadow: 0 none !important;
@@ -380,20 +380,20 @@ button,
 }
 button:hover,
 .button:hover {
-  background: #0082cc;
+  background: #cc2a00;
 }
 button.secondary,
 .button.secondary {
   background: #FFF;
-  border-color: #00a2ff;
-  color: #00a2ff;
+  border-color: #ff3400;
+  color: #ff3400;
   border-width: 1px;
 }
 button.secondary:hover,
 .button.secondary:hover {
   background: #FFF;
-  border-color: #0082cc;
-  color: #0082cc;
+  border-color: #cc2a00;
+  color: #cc2a00;
 }
 .panel button {
   width: 100%;
@@ -431,14 +431,14 @@ fieldset ul {
   padding: 0.5em;
 }
 .panel.blue {
-  background: #00a2ff;
+  background: #ff3400;
   color: #FFF;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 .panel.blue.shade {
-  background: #0082cc;
+  background: #cc2a00;
   height: auto;
   margin-bottom: 0;
 }
@@ -614,4 +614,3 @@ div.votes-remaining div button {
 .faq p {
   overflow: hidden;
 }
-/*# sourceMappingURL=Site.css.map */
