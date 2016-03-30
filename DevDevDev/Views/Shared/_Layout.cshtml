@@ -1,12 +1,14 @@
 ﻿@using DevDevDev.Models
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
 
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>DDD Sydney - 28 May 2016</title>
 
     <link href="@Url.Content("~/Content/css/foundation.css")" rel="stylesheet">
@@ -14,34 +16,35 @@
     @Styles.Render("~/bundles/css")
 
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:900' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<script src="@Url.Content("~/scripts/vendor/custom.modernizr.js")"></script>
-	<script src="@Url.Content("~/scripts/vendor/jquery.js")"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="@Url.Content("~/scripts/vendor/custom.modernizr.js")"></script>
+    <script src="@Url.Content("~/scripts/vendor/jquery.js")"></script>
 
 </head>
 
-    <body>
+<body>
 
-	<header>
-		<div class="bg-fill">&nbsp;</div>
-		<div class="status-row">
-			<div class="row">
-				<div class="large-12 columns">
-					Current status: <strong>Accepting Sessions</strong>
-				</div>
-			</div>
-		</div>
-		<div class="row title">
-			<div class="large-12 columns">
-				<h1>
-				    <a href="/">DDD Sydney</a>
-				</h1>
-				<h2>DDD Sydney is a non profit community event run by developers, for developers & will be held on @EventConfig.EventDateDescription</h2>
-			</div>
-		</div>
-	</header>
+    <header>
+        <div class="bg-fill">&nbsp;</div>
+        <div class="status-row">
+            <div class="row">
+                <div class="large-12 columns">
+                    Current status: <strong>Accepting Sessions</strong>
+                </div>
+            </div>
+        </div>
+        <div class="row title">
+            <div class="large-12 columns">
+                <h1>
+                    <a href="/">DDD Sydney</a>
+                </h1>
+                <h2>DDD Sydney is a non profit community event run by developers, for developers & will be held on @EventConfig.EventDateDescription</h2>
+            </div>
+        </div>
+    </header>
 
-	@RenderBody()
+    @RenderBody()
 
 
     @Scripts.Render("~/bundles/libs")
@@ -52,7 +55,7 @@
 
     @RenderSection("optionalScripts", false)
 
-        <script>
-           $(document).foundation();
-        </script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>

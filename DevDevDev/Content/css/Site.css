@@ -449,6 +449,9 @@ fieldset ul {
   margin: 0 auto;
   background-size: cover;
 }
+.shade i {
+  font-size: 6em;
+}
 .car i {
   background: url(/Content/images/car.png);
 }
